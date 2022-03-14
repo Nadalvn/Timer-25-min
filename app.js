@@ -1,4 +1,4 @@
-let timeSecond = 1800;
+let timeSecond = 1500;
 const timeH = document.querySelector("h1");
 
 displayTime(timeSecond);
@@ -23,4 +23,3 @@ function displayTime(second) {
 function endCount() {
     timeH.innerHTML = "Time out";
 }
-
